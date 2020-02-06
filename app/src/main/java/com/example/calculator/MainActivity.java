@@ -159,6 +159,7 @@ public class MainActivity extends AppCompatActivity {
                         finalResult.setText(res + "");
                     } else
                         Result.setText("Zero Divide Error");
+                        finalResult.setText("");
                 }
             }
         });
